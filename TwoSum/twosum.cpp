@@ -28,6 +28,15 @@ class Solution
                 diff = target - nums[i];
 
                 /*
+                The map::find() is a built-in function in C++ STL which 
+                returns an iterator or a constant iterator 
+                that refers to the position where the key 
+                is present in the map. If the key is not 
+                present in the map container, it returns an iterator 
+                or a constant iterator which refers to map.end(). 
+                
+                from: https://www.geeksforgeeks.org/map-find-function-in-c-stl/
+
                 in the first iteration of the for loop
                 the numsmap will be empty so this if 
                 statement won't even run. However once the
